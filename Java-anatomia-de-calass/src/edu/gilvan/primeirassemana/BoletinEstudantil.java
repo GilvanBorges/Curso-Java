@@ -1,3 +1,4 @@
+package edu.gilvan.primeirassemana;
 public class BoletinEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 8;

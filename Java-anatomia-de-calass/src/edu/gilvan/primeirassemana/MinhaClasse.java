@@ -1,3 +1,4 @@
+package edu.gilvan.primeirassemana;
 public class MinhaClasse {
 
     public static void main(String[] args) {
