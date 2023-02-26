@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArrayConsoante {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       try(Scanner scanner = new Scanner(System.in)){;
 
         String[] consoantes = new String[6];
         int quantidadeConsoante = 0;
@@ -30,5 +30,6 @@ public class ArrayConsoante {
        }
        System.out.println("Quantidade de consoantes: " + quantidadeConsoante);
         System.out.println(consoantes.length);
+      }
     }
 }
