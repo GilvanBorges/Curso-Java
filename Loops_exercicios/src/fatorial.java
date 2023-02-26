@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class fatorial {
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            try(Scanner scanner = new Scanner(System.in)){
             System.out.println("Fatorial: ");
 
             int fatorial = scanner.nextInt();
@@ -14,5 +14,6 @@ public class fatorial {
                 multiplicacao = multiplicacao * i;
             }
             System.out.println(fatorial + "! = " + multiplicacao);
+         }
         }
     }
